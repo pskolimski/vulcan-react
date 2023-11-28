@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import studentsList from 'data/students.json';
+import Sidebar from 'components/Sidebar/Sidebar';
 
 const App = () => {
    const [students] = useState(studentsList);
 
    return (
       <>
-         <h1>Hello world</h1>
+         <Sidebar students={students} />
       </>
    );
 };
