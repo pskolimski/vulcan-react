@@ -1,14 +1,24 @@
 import React, { useState } from 'react';
 import studentsList from 'data/students.json';
-import Sidebar from 'components/Sidebar/Sidebar';
+import Home from 'pages/Home';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+const router = createBrowserRouter([
+   {
+      path: '/',
+      element: <Home />,
+   },
+]);
+
+export const StudentsContext = React.createContext();
 
 const App = () => {
-   const [students] = useState(studentsList);
+   const [students, setStudents] = useState(studentsList);
 
    return (
-      <>
-         <Sidebar students={students} />
-      </>
+      <StudentsContext.Provider value={{ students, setStudents }}>
+         <RouterProvider router={router}></RouterProvider>
+      </StudentsContext.Provider>
    );
 };
 
