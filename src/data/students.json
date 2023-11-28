@@ -1,0 +1,137 @@
+[
+   {
+      "semester": 4,
+      "class": "3A",
+      "grades": [5, 4, 3, 5, 4],
+      "average": 4.2,
+      "firstName": "Jan",
+      "lastName": "Kowalski",
+      "image": "studentsImages/m1.jpg"
+   },
+   {
+      "semester": 3,
+      "class": "2B",
+      "grades": [4, 4, 5, 4, 4],
+      "average": 4.2,
+      "firstName": "Anna",
+      "lastName": "Nowak",
+      "image": "studentsImages/fem1.jpg"
+   },
+   {
+      "semester": 5,
+      "class": "4C",
+      "grades": [5, 4, 3, 5, 4],
+      "average": 4.2,
+      "firstName": "Marek",
+      "lastName": "Wiśniewski",
+      "image": "studentsImages/m2.jpg"
+   },
+   {
+      "semester": 2,
+      "class": "1A",
+      "grades": [3, 4, 4, 4, 5],
+      "average": 4.0,
+      "firstName": "Ewa",
+      "lastName": "Lewandowska",
+      "image": "studentsImages/fem2.jpg"
+   },
+   {
+      "semester": 4,
+      "class": "3B",
+      "grades": [4, 4, 3, 4, 4],
+      "average": 3.8,
+      "firstName": "Piotr",
+      "lastName": "Dąbrowski",
+      "image": "studentsImages/m3.jpg"
+   },
+   {
+      "semester": 3,
+      "class": "2A",
+      "grades": [3, 4, 5, 4, 3],
+      "average": 3.8,
+      "firstName": "Magdalena",
+      "lastName": "Kaczmarek",
+      "image": "studentsImages/fem3.jpg"
+   },
+   {
+      "semester": 6,
+      "class": "5C",
+      "grades": [5, 4, 5, 4, 3],
+      "average": 4.2,
+      "firstName": "Tomasz",
+      "lastName": "Wójcik",
+      "image": "studentsImages/m4.jpg"
+   },
+   {
+      "semester": 3,
+      "class": "2C",
+      "grades": [4, 5, 4, 4, 4],
+      "average": 4.2,
+      "firstName": "Iwona",
+      "lastName": "Zielińska",
+      "image": "studentsImages/fem4.jpg"
+   },
+   {
+      "semester": 5,
+      "class": "4B",
+      "grades": [5, 4, 3, 4, 5],
+      "average": 4.2,
+      "firstName": "Krzysztof",
+      "lastName": "Szymański",
+      "image": "studentsImages/m5.jpg"
+   },
+   {
+      "semester": 2,
+      "class": "1B",
+      "grades": [3, 4, 4, 4, 5],
+      "average": 4.0,
+      "firstName": "Alicja",
+      "lastName": "Woźniak",
+      "image": "studentsImages/fem5.jpg"
+   },
+   {
+      "semester": 2,
+      "class": "3TEP",
+      "grades": [3, 2, 5, 1, 6],
+      "average": 3.4,
+      "firstName": "Maciej",
+      "lastName": "Musiał",
+      "image": "studentsImages/m6.jpg"
+   },
+   {
+      "semester": 3,
+      "class": "2TEP",
+      "grades": [1, 2, 3, 4, 5, 6],
+      "average": 3.5,
+      "firstName": "Krzysztof",
+      "lastName": "Zaborowski",
+      "image": "studentsImages/m7.jpg"
+   },
+   {
+      "semester": 3,
+      "class": "3TM",
+      "grades": [1, 2, 3, 4, 5, 6],
+      "average": 3.5,
+      "firstName": "Krzysztof",
+      "lastName": "Kosmalski",
+      "image": "studentsImages/m8.jpg"
+   },
+   {
+      "semester": 6,
+      "class": "2TEP",
+      "grades": [1, 5, 2, 5, 6],
+      "average": 3.8,
+      "firstName": "Krzysztof",
+      "lastName": "Ratajski",
+      "image": "studentsImages/m9.jpg"
+   },
+   {
+      "semester": 4,
+      "class": "2TM",
+      "grades": [1, 2, 4, 5, 6, 3],
+      "average": 3.5,
+      "firstName": "Władysław",
+      "lastName": "Jagiełło",
+      "image": "studentsImages/m10.jpg"
+   }
+]
