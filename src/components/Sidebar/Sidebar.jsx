@@ -6,18 +6,23 @@ import { NavLink } from 'react-router-dom';
 const Sidebar = ({ students }) => {
    return (
       <div className={styles.wrapper}>
-         <img src={logo} alt="Logo" className={styles.logo} />
+         <NavLink to="/" className={styles.logo}>
+            <img src={logo} alt="logo" className={styles.image} />
+         </NavLink>
 
-         <div className={styles.students}>
-            {students.map((student, index) => (
-               <NavLink
-                  to={`/student/${student.pesel}`}
-                  className={`${styles.item}`}
-                  key={index}
-               >
-                  {student.firstName} {student.lastName}
-               </NavLink>
-            ))}
+         <div>
+            <h3 className={styles.title}>Lista studentów</h3>
+            <div className={styles.students}>
+               {students.map((student, index) => (
+                  <NavLink
+                     to={`/student/${student.pesel}`}
+                     className={`${styles.item}`}
+                     key={index}
+                  >
+                     {student.firstName} {student.lastName}
+                  </NavLink>
+               ))}
+            </div>
          </div>
       </div>
    );
