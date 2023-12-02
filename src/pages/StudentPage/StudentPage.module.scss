@@ -1,0 +1,10 @@
+.subtitle {
+  margin-bottom: 50px;
+  color: #E2E2E2;
+}
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1fr auto;
+}

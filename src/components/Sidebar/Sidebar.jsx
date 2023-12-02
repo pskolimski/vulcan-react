@@ -1,18 +1,22 @@
 import React from 'react';
 import logo from 'assets/logo.svg';
+import styles from './Sidebar.module.scss';
+import { NavLink } from 'react-router-dom';
 
 const Sidebar = ({ students }) => {
    return (
-      <div>
-         <img src={logo} alt="Logo" />
+      <div className={styles.wrapper}>
+         <img src={logo} alt="Logo" className={styles.logo} />
 
-         <div>
+         <div className={styles.students}>
             {students.map((student, index) => (
-               <div key={index}>
-                  <p>
-                     {student.firstName} {student.lastName}
-                  </p>
-               </div>
+               <NavLink
+                  to={`/student/${student.pesel}`}
+                  className={`${styles.item}`}
+                  key={index}
+               >
+                  {student.firstName} {student.lastName}
+               </NavLink>
             ))}
          </div>
       </div>

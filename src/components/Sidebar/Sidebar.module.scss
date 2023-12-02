@@ -1,0 +1,40 @@
+@import 'styles/theme.scss';
+
+.wrapper {
+  width: 300px;
+  height: 100vh;
+  background-color: $bgLight;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.logo {
+  width: 170px;
+}
+
+.students {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 60px;
+  gap: 5px;
+}
+
+.item {
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  color: $text;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $primary;
+  }
+}

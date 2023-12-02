@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+    
+}
+
+.image {
+  width: 250px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.class {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.field {
+  font-size: 17px;
+  font-weight: 500;
+
+  span {
+    font-weight: 600;
+  }
+}

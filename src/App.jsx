@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
-import studentsList from 'data/students.json';
-import Home from 'pages/Home';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Home from 'pages/Home/Home';
+import StudentPage from 'pages/StudentPage/StudentPage';
+import studentsList from 'data/students.json';
 
 const router = createBrowserRouter([
    {
       path: '/',
       element: <Home />,
+   },
+   {
+      path: '/student/:pesel',
+      element: <StudentPage />,
    },
 ]);
 
