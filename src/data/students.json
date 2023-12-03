@@ -9,7 +9,6 @@
       5,
       4
     ],
-    "average": 4.2,
     "firstName": "Jan",
     "lastName": "Kowalski",
     "image": "/studentsImages/m1.jpg",
@@ -26,7 +25,6 @@
       4,
       4
     ],
-    "average": 4.2,
     "firstName": "Anna",
     "lastName": "Nowak",
     "image": "/studentsImages/fem1.jpg",
@@ -43,7 +41,6 @@
       5,
       4
     ],
-    "average": 4.2,
     "firstName": "Marek",
     "lastName": "Wiśniewski",
     "image": "/studentsImages/m2.jpg",
@@ -60,7 +57,6 @@
       4,
       5
     ],
-    "average": 4.0,
     "firstName": "Ewa",
     "lastName": "Lewandowska",
     "image": "/studentsImages/fem2.jpg",
@@ -77,7 +73,6 @@
       4,
       4
     ],
-    "average": 3.8,
     "firstName": "Piotr",
     "lastName": "Dąbrowski",
     "image": "/studentsImages/m3.jpg",
@@ -94,7 +89,6 @@
       4,
       3
     ],
-    "average": 3.8,
     "firstName": "Magdalena",
     "lastName": "Kaczmarek",
     "image": "/studentsImages/fem3.jpg",
@@ -111,7 +105,6 @@
       4,
       3
     ],
-    "average": 4.2,
     "firstName": "Tomasz",
     "lastName": "Wójcik",
     "image": "/studentsImages/m4.jpg",
@@ -128,7 +121,6 @@
       4,
       4
     ],
-    "average": 4.2,
     "firstName": "Iwona",
     "lastName": "Zielińska",
     "image": "/studentsImages/fem4.jpg",
@@ -145,7 +137,6 @@
       4,
       5
     ],
-    "average": 4.2,
     "firstName": "Krzysztof",
     "lastName": "Szymański",
     "image": "/studentsImages/m5.jpg",
@@ -162,7 +153,6 @@
       4,
       5
     ],
-    "average": 4.0,
     "firstName": "Alicja",
     "lastName": "Woźniak",
     "image": "/studentsImages/fem5.jpg",
@@ -179,7 +169,6 @@
       1,
       6
     ],
-    "average": 3.4,
     "firstName": "Maciej",
     "lastName": "Musiał",
     "image": "/studentsImages/m6.jpg",
@@ -197,7 +186,6 @@
       2,
       1
     ],
-    "average": 3.5,
     "firstName": "Krzysztof",
     "lastName": "Zaborowski",
     "image": "/studentsImages/m7.jpg",
@@ -215,7 +203,6 @@
       5,
       6
     ],
-    "average": 3.5,
     "firstName": "Krzysztof",
     "lastName": "Kosmalski",
     "image": "/studentsImages/m8.jpg",
@@ -232,7 +219,6 @@
       5,
       6
     ],
-    "average": 3.8,
     "firstName": "Krzysztof",
     "lastName": "Ratajski",
     "image": "/studentsImages/m9.jpg",
@@ -250,7 +236,6 @@
       6,
       3
     ],
-    "average": 3.5,
     "firstName": "Władysław",
     "lastName": "Jagiełło",
     "image": "/studentsImages/m10.jpg",

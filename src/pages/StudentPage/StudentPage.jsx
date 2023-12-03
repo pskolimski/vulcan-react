@@ -39,7 +39,10 @@ const StudentPage = () => {
                   </p>
 
                   <Student student={activeStudent} />
-                  <Grades grades={activeStudent.grades} />
+                  <Grades
+                     grades={activeStudent.grades}
+                     pesel={activeStudent.pesel}
+                  />
                </div>
                <Pagination activeStudent={activeStudent} />
             </div>

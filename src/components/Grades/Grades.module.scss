@@ -5,6 +5,24 @@
   gap: 5px;
 }
 
+.button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
 .grade {
   width: 40px;
   height: 40px;
@@ -15,11 +33,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: indianred;
+  }
 }
 
 .title {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-top: 30px;
+}
+
+.subtitle {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: lightgrey;
 }
