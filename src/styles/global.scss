@@ -2,20 +2,24 @@
 @import './theme.scss';
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+*::-webkit-scrollbar {
+   display: none;
 }
 
 body {
-  width: 100%;
-  min-height: 100dvh;
-  background-color: $bg;
-  color: $text;
+   width: 100%;
+   min-height: 100dvh;
+   background-color: $bg;
+   color: $text;
 }
 
 .active {
-  background-color: #8f00ff;
-  color: white;
+   background-color: #8f00ff;
+   color: white;
 }

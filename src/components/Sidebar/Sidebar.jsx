@@ -15,7 +15,7 @@ const Sidebar = ({ students }) => {
             <div className={styles.students}>
                {students.map((student, index) => (
                   <NavLink
-                     to={`/student/${student.pesel}`}
+                     to={`/student/${student.username}`}
                      className={`${styles.item}`}
                      key={index}
                   >

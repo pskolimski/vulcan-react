@@ -25,7 +25,9 @@ const Pagination = ({ activeStudent }) => {
          return;
       } else {
          navigate(
-            `/student/${students[students.indexOf(activeStudent) - 1].pesel}`,
+            `/student/${
+               students[students.indexOf(activeStudent) - 1].username
+            }`,
          );
       }
    };
@@ -37,7 +39,9 @@ const Pagination = ({ activeStudent }) => {
          return;
       } else {
          navigate(
-            `/student/${students[students.indexOf(activeStudent) + 1].pesel}`,
+            `/student/${
+               students[students.indexOf(activeStudent) + 1].username
+            }`,
          );
       }
    };
@@ -56,7 +60,7 @@ const Pagination = ({ activeStudent }) => {
             {students.map((student, index) => (
                <NavLink
                   key={index}
-                  to={`/student/${student.pesel}`}
+                  to={`/student/${student.username}`}
                   className={styles.item}
                >
                   {index + 1}

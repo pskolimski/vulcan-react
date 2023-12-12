@@ -36,9 +36,15 @@ const Student = ({ student }) => {
             </p>
             <p className={styles.field}>
                <span>Średnia ocen: </span>
-               {student.grades.length === 0
-                  ? 'Brak ocen'
-                  : getAverage(student.grades)}
+               <span
+                  className={
+                     getAverage(student.grades) < 2 ? styles.lowAverage : null
+                  }
+               >
+                  {student.grades.length === 0
+                     ? 'Brak ocen'
+                     : getAverage(student.grades)}
+               </span>
             </p>
          </div>
       </div>

@@ -14,7 +14,7 @@ const Home = () => {
          <div className={styles.students}>
             {students.map((student) => (
                <NavLink
-                  to={`/student/${student.pesel}`}
+                  to={`/student/${student.username}`}
                   key={student.pesel}
                   className={styles.student}
                >

@@ -7,7 +7,8 @@
       "lastName": "Kowalski",
       "image": "/studentsImages/m1.jpg",
       "pesel": "90010112345",
-      "birthdate": "1990-01-01"
+      "birthdate": "1990-01-01",
+      "username": "jan-kowalski-0101"
    },
    {
       "semester": 3,
@@ -17,7 +18,8 @@
       "lastName": "Nowak",
       "image": "/studentsImages/fem1.jpg",
       "pesel": "91020223456",
-      "birthdate": "1991-02-02"
+      "birthdate": "1991-02-02",
+      "username": "anna-nowak-0202"
    },
    {
       "semester": 5,
@@ -27,7 +29,8 @@
       "lastName": "Wiśniewski",
       "image": "/studentsImages/m2.jpg",
       "pesel": "92030334567",
-      "birthdate": "1992-03-03"
+      "birthdate": "1992-03-03",
+      "username": "marek-wisniewski-0303"
    },
    {
       "semester": 2,
@@ -37,7 +40,8 @@
       "lastName": "Lewandowska",
       "image": "/studentsImages/fem2.jpg",
       "pesel": "93040445678",
-      "birthdate": "1993-04-04"
+      "birthdate": "1993-04-04",
+      "username": "ewa-lewandowska-0404"
    },
    {
       "semester": 4,
@@ -47,7 +51,8 @@
       "lastName": "Dąbrowski",
       "image": "/studentsImages/m3.jpg",
       "pesel": "94050556789",
-      "birthdate": "1994-05-05"
+      "birthdate": "1994-05-05",
+      "username": "piotr-dabrowski-0505"
    },
    {
       "semester": 3,
@@ -57,7 +62,8 @@
       "lastName": "Kaczmarek",
       "image": "/studentsImages/fem3.jpg",
       "pesel": "95060667890",
-      "birthdate": "1995-06-06"
+      "birthdate": "1995-06-06",
+      "username": "magdalena-kaczmarek-0606"
    },
    {
       "semester": 6,
@@ -67,7 +73,8 @@
       "lastName": "Wójcik",
       "image": "/studentsImages/m4.jpg",
       "pesel": "96070778901",
-      "birthdate": "1996-07-07"
+      "birthdate": "1996-07-07",
+      "username": "tomasz-wojcik-0707"
    },
    {
       "semester": 3,
@@ -77,7 +84,8 @@
       "lastName": "Zielińska",
       "image": "/studentsImages/fem4.jpg",
       "pesel": "97080889012",
-      "birthdate": "1997-08-08"
+      "birthdate": "1997-08-08",
+      "username": "iwona-zielinska-0808"
    },
    {
       "semester": 5,
@@ -87,7 +95,8 @@
       "lastName": "Szymański",
       "image": "/studentsImages/m5.jpg",
       "pesel": "98090990123",
-      "birthdate": "1998-09-09"
+      "birthdate": "1998-09-09",
+      "username": "krzysztof-szymanski-0909"
    },
    {
       "semester": 2,
@@ -97,7 +106,8 @@
       "lastName": "Woźniak",
       "image": "/studentsImages/fem5.jpg",
       "pesel": "99010101234",
-      "birthdate": "1999-01-01"
+      "birthdate": "1999-01-01",
+      "username": "alicja-wozniak-0101"
    },
    {
       "semester": 2,
@@ -107,7 +117,8 @@
       "lastName": "Musiał",
       "image": "/studentsImages/m6.jpg",
       "pesel": "00020212345",
-      "birthdate": "2000-02-02"
+      "birthdate": "2000-02-02",
+      "username": "maciej-musial-0202"
    },
    {
       "semester": 3,
@@ -117,7 +128,8 @@
       "lastName": "Zaborowski",
       "image": "/studentsImages/m7.jpg",
       "pesel": "01030323456",
-      "birthdate": "2001-03-03"
+      "birthdate": "2001-03-03",
+      "username": "krzysztof-zaborowski-0303"
    },
    {
       "semester": 3,
@@ -127,7 +139,8 @@
       "lastName": "Kosmalski",
       "image": "/studentsImages/m8.jpg",
       "pesel": "02040434567",
-      "birthdate": "2002-04-04"
+      "birthdate": "2002-04-04",
+      "username": "krzysztof-kosmalski-0404"
    },
    {
       "semester": 6,
@@ -137,7 +150,8 @@
       "lastName": "Ratajski",
       "image": "/studentsImages/m9.jpg",
       "pesel": "03050545678",
-      "birthdate": "2003-05-05"
+      "birthdate": "2003-05-05",
+      "username": "krzysztof-ratajski-0505"
    },
    {
       "semester": 4,
@@ -147,6 +161,7 @@
       "lastName": "Jagiełło",
       "image": "/studentsImages/m10.jpg",
       "pesel": "04060656789",
-      "birthdate": "2004-06-06"
+      "birthdate": "2004-06-06",
+      "username": "wladyslaw-jagiello-0606"
    }
 ]

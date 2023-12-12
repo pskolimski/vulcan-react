@@ -6,6 +6,7 @@ import PageTemplate from '../../templates/PageTemplate/PageTemplate';
 import styles from './StudentPage.module.scss';
 import Grades from '../../components/Grades/Grades';
 import Pagination from '../../components/Pagination/Pagination';
+import Helmet from 'react-helmet';
 
 const StudentPage = () => {
    const { students } = useContext(StudentsContext);
@@ -15,7 +16,7 @@ const StudentPage = () => {
 
    useEffect(() => {
       const activeStudent = students.find(
-         (student) => student.pesel === params.pesel,
+         (student) => student.username === params.username,
       );
 
       if (!activeStudent) {
@@ -27,26 +28,34 @@ const StudentPage = () => {
 
    if (activeStudent)
       return (
-         <PageTemplate>
-            <div className={styles.wrapper}>
-               <div>
-                  <h2 className={styles.title}>
-                     Profil ucznia {activeStudent.firstName}{' '}
-                     {activeStudent.lastName}
-                  </h2>
-                  <p className={styles.subtitle}>
-                     Uczeń o numerze PESEL {activeStudent.pesel}
-                  </p>
+         <>
+            <Helmet>
+               <title>
+                  {activeStudent.firstName} {activeStudent.lastName} - Vulcan
+                  3.0
+               </title>
+            </Helmet>
+            <PageTemplate>
+               <div className={styles.wrapper}>
+                  <div>
+                     <h2 className={styles.title}>
+                        Profil ucznia {activeStudent.firstName}{' '}
+                        {activeStudent.lastName}
+                     </h2>
+                     <p className={styles.subtitle}>
+                        Uczeń o numerze PESEL {activeStudent.pesel}
+                     </p>
 
-                  <Student student={activeStudent} />
-                  <Grades
-                     grades={activeStudent.grades}
-                     pesel={activeStudent.pesel}
-                  />
+                     <Student student={activeStudent} />
+                     <Grades
+                        grades={activeStudent.grades}
+                        pesel={activeStudent.pesel}
+                     />
+                  </div>
+                  <Pagination activeStudent={activeStudent} />
                </div>
-               <Pagination activeStudent={activeStudent} />
-            </div>
-         </PageTemplate>
+            </PageTemplate>
+         </>
       );
 };
 

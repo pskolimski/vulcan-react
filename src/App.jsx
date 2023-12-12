@@ -4,6 +4,7 @@ import Home from 'pages/Home/Home';
 import StudentPage from 'pages/StudentPage/StudentPage';
 import { useLocalStorage } from './hooks/useLocalStorage';
 import { saveLocalStorage } from './hooks/saveLocalStorage';
+import NotFound from 'pages/404/404';
 
 const router = createBrowserRouter([
    {
@@ -11,8 +12,12 @@ const router = createBrowserRouter([
       element: <Home />,
    },
    {
-      path: '/student/:pesel',
+      path: '/student/:username',
       element: <StudentPage />,
+   },
+   {
+      path: '*',
+      element: <NotFound />,
    },
 ]);
 
